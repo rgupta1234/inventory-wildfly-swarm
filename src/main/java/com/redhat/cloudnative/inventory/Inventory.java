@@ -9,6 +9,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "INVENTORY", uniqueConstraints = @UniqueConstraint(columnNames = "itemId"))
 public class Inventory implements Serializable {
+    //ravi
     @Id
     private String itemId;
 
